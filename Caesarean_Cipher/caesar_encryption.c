@@ -8,8 +8,8 @@ int main(int argc, char* argv[]){
   // If the user provided a specific character shift 
   if(argc == 3){
     // Shift character range 
-    char lower_ch = argv[2][0];
-    char upper_ch = argv[1][0];
+    char lower_ch = argv[1][0];
+    char upper_ch = argv[2][0];
 
     // User characters validation
     if(isalpha(lower_ch) && isalpha(upper_ch)){
